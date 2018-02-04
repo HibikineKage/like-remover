@@ -10,7 +10,7 @@ doJudge = (i, elem) => {
     const json_raw = $(elem).attr('data-suggestion-json');
     const json = JSON.parse(json_raw);
     if(json["suggestion_details"]["suggestion_type"] === "ActivityTweet") {
-        $(elem).addClass("likermover-like-tweet")
+        $(elem).addClass("likeremover-like-tweet")
     }
     
     
